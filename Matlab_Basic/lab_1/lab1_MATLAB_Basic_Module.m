@@ -1,0 +1,16 @@
+matrixA = [3 2 1 ; 6 5 4 ; 9 8 7 ] ;
+matrixB = [ 12 11 10 ; 15 14 13 ; 18 17 16 ] ;
+matrixSum= matrixA +matrixB;
+matrixSum;
+rowVactor = 1:5; 
+columnVector = [6;7;8;9;10];
+matrixC = columnVector';
+matrixD = rowVactor' ;
+matrixE = horzcat( rowVactor , matrixC );
+matrixE;
+originalmatrix = [3 8 ; 9 6];
+repatedMatrix = repmat(originalmatrix , 2);
+repatedMatrix;
+identiyMatix = eye(3);
+matixProduct = identiyMatix * matrixA ;
+matixProduct;
